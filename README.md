@@ -14,9 +14,9 @@ $ ./main.out MATRIX_N MODE INSTANCES_NUMBER
 
 | Param | Defenition |
 | ------ | ----------|
-| MATRIX_N | namber of elements in matrix [N][N]  |
+| MATRIX_N | number of elements in matrix N x N  |
 | MODE | 1 - for forks; 2 - for threads; any other for serial calculation |
-| INSTANCES_NUMBER  | depending on MODE how meny instances of forks/threads to create |
+| INSTANCES_NUMBER  | depends on MODE, how meny instances of forks/threads to create |
 
 #### Calculations
 > This program finds multiplication of avarage values of indexes of all zero valued elements in each line and column of the given matrix
